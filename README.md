@@ -6,7 +6,7 @@ Social media app that allows users to share memories. Built using MongoDB, Expre
 
 This project was part of a [Youtube](https://www.youtube.com/playlist?list=PL6QREj8te1P7VSwhrMf3D3Xt4V6_SRkhu) tutorial.
 
-### Setup
+### Development setup
 
 * In the root directory, rename .env.example to .env and add your MongoDB CONNECTION_URL.
 
@@ -31,7 +31,7 @@ In the project root directory
 npm run dev
 ```
 
-#### Deploy to Heroku
+### Production setup
 
 Setup repository
 
@@ -69,6 +69,6 @@ Open application
 heroku open
 ```
 
-#### Demo
+### Demo
 
 https://ia-mern-memories.herokuapp.com
