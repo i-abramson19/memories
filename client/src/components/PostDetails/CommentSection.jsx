@@ -34,7 +34,7 @@ const CommentSection = ({ post }) => {
                             </Typography> 
                          ))
                     ) : (
-                        <Typography>Sign in to be the first to comment below!</Typography>
+                        <Typography>Be the first to comment below!</Typography>
                     )
                 }
             </div>
