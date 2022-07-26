@@ -54,7 +54,7 @@ const PostDetails = () => {
                     <Typography variant="body1">{moment(post.createdAt).fromNow()}</Typography>
                     <Typography variant="h3" component="h2">{post.title}</Typography>
                     {
-                        post.tags?.length > 1 && (
+                        post.tags[0] !== '' && post.tags?.length > 0 && (
                             <Typography gutterBottom variant="h6" color="textSecondary" component="h2">
                                 {post.tags.map((tag) => `#${tag} `)}
                             </Typography>
